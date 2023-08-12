@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Square from "./square";
+import Square from "./Square";
 
 export default function Board({ xIsNext, squares, onPlay }) {
   function handleclick(i) {
